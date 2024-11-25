@@ -21,45 +21,56 @@ The dataset represents a car sales record collected recently, encompassing data 
 The dataset includes the following key features:
 
 **1. Year:** Year of manufacture.
+
   Range: 2014 to 2015 (based on a quick glance).
   Insight: Indicates the age of the vehicle, which impacts its market value.
   
 **2. Make:** Manufacturer of the car.
+
   Categories: Includes brands like Kia, BMW, Volvo, etc.
   Insight: Brand reputation affects demand and resale value.
   
 **3. Model:** Specific car model.
+
   Categories: Includes Sorento, 3 Series, S60, etc.
   Insight: Popular models may fetch higher prices.
  
  **4. Trim:** Variant or configuration of the model.
+ 
   Example: LX, 328i SULEV, T5.
   Insight: Higher trims generally have better features and resale value.
   
  **5. Body:** Body type of the vehicle.
+ 
    Categories: SUV, Sedan, etc.
    Insight: Different body types cater to specific consumer preferences.
 
 **6. Transmission:** Type of transmission system.
+
   Categories: Automatic, manual, etc.
   Insight: Automatic vehicles often command higher prices in specific markets.
 
 **7. VIN:** Vehicle Identification Number.
+
   Unique for each car.
 
 **8. State:** Location of the sale.
+
   Insight: Geographic trends may influence demand and pricing.
 
 **9. Condition:** Vehicle condition rating (numeric).
+
   Insight: Higher condition scores indicate better-maintained cars.
 
 **10. Odometer:** Mileage of the vehicle.
+
   Range: Varies from low to high mileage.
   Insight: Cars with lower mileage are generally priced higher.
 
 **11. Color:** Exterior color of the car.
 
 **12. Seller:** Selling entity.
+
   Categories: Includes manufacturers, lease companies, etc.
   Insight: Sellers can influence consumer trust and pricing.
 
