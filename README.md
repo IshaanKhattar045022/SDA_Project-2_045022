@@ -20,55 +20,55 @@ The dataset represents a car sales record collected recently, encompassing data 
 **Attributes**
 The dataset includes the following key features:
 
-**Year:** Year of manufacture.
+**1. Year:** Year of manufacture.
+  Range: 2014 to 2015 (based on a quick glance).
+  Insight: Indicates the age of the vehicle, which impacts its market value.
+  
+**2. Make:** Manufacturer of the car.
+  Categories: Includes brands like Kia, BMW, Volvo, etc.
+  Insight: Brand reputation affects demand and resale value.
+  
+**3. Model:** Specific car model.
+  Categories: Includes Sorento, 3 Series, S60, etc.
+  Insight: Popular models may fetch higher prices.
+ 
+ **4. Trim:** Variant or configuration of the model.
+  Example: LX, 328i SULEV, T5.
+  Insight: Higher trims generally have better features and resale value.
+  
+ **5. Body:** Body type of the vehicle.
+   Categories: SUV, Sedan, etc.
+   Insight: Different body types cater to specific consumer preferences.
 
-**Range:** 2014 to 2015 (based on a quick glance).
-Insight: Indicates the age of the vehicle, which impacts its market value.
-Make: Manufacturer of the car.
+**6. Transmission:** Type of transmission system.
+  Categories: Automatic, manual, etc.
+  Insight: Automatic vehicles often command higher prices in specific markets.
 
-**Categories:** Includes brands like Kia, BMW, Volvo, etc.
-Insight: Brand reputation affects demand and resale value.
-Model: Specific car model.
+**7. VIN:** Vehicle Identification Number.
+  Unique for each car.
 
-**Categories:** Includes Sorento, 3 Series, S60, etc.
-Insight: Popular models may fetch higher prices.
-Trim: Variant or configuration of the model.
+**8. State:** Location of the sale.
+  Insight: Geographic trends may influence demand and pricing.
 
-Example: LX, 328i SULEV, T5.
-Insight: Higher trims generally have better features and resale value.
-**Body:** Body type of the vehicle.
+**9. Condition:** Vehicle condition rating (numeric).
+  Insight: Higher condition scores indicate better-maintained cars.
 
-Categories: SUV, Sedan, etc.
-Insight: Different body types cater to specific consumer preferences.
-Transmission: Type of transmission system.
+**10. Odometer:** Mileage of the vehicle.
+  Range: Varies from low to high mileage.
+  Insight: Cars with lower mileage are generally priced higher.
 
-Categories: Automatic, manual, etc.
-Insight: Automatic vehicles often command higher prices in specific markets.
-VIN: Vehicle Identification Number.
+**11. Color:** Exterior color of the car.
 
-Unique for each car.
-State: Location of the sale.
+**12. Seller:** Selling entity.
+  Categories: Includes manufacturers, lease companies, etc.
+  Insight: Sellers can influence consumer trust and pricing.
 
-Insight: Geographic trends may influence demand and pricing.
-Condition: Vehicle condition rating (numeric).
+**13. MMR (Manheim Market Report):** Market value estimation of the car.
+  Insight: Serves as a benchmark for pricing.
 
-Insight: Higher condition scores indicate better-maintained cars.
-Odometer: Mileage of the vehicle.
+**14. Selling Price:** Actual price at which the car was sold.
+  Insight: Dependent on all other attributes.
 
-Range: Varies from low to high mileage.
-Insight: Cars with lower mileage are generally priced higher.
-Color: Exterior color of the car.
-
-Seller: Selling entity.
-
-Categories: Includes manufacturers, lease companies, etc.
-Insight: Sellers can influence consumer trust and pricing.
-MMR (Manheim Market Report): Market value estimation of the car.
-
-Insight: Serves as a benchmark for pricing.
-Selling Price: Actual price at which the car was sold.
-
-Insight: Dependent on all other attributes.
 Dataset Features
 Volume: 256,229 rows.
 Missing Values: Some columns like make, model, trim, body, transmission, etc., have missing values.
